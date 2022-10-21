@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals" >
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <ItemsProjectGuid>{81c20dfd-78d9-4bec-9c8e-ee4ec7d65f1a}</ItemsProjectGuid>
+    <ItemsProjectGuid>{0f8bf2b8-48cc-4369-b3f4-a9cf22caea85}</ItemsProjectGuid>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -14,17 +14,21 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\LiquidCrystal_PCF8574.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ADS1115_WE.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)src\LiquidCrystal_PCF8574.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ADS1115_config.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ADS1115_WE.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
 <Text Include="$(MSBuildThisFileDirectory)library.properties" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+    <None Include="$(MSBuildThisFileDirectory)ADS1115_ATtiny_Test_Wiring.png" />
+<None Include="$(MSBuildThisFileDirectory)ADS1115_Test_Wiring.png" />
+<None Include="$(MSBuildThisFileDirectory)LICENSE" />
+<None Include="$(MSBuildThisFileDirectory)List of public functions ADS1115.pdf" />
 <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
 </Project>

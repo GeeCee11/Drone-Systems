@@ -7,7 +7,19 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controller", "..\..\..\..\A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32 Flight Controller", "..\..\..\..\Arduino\ESP32 Flight Controller\ESP32 Flight Controller.vcxproj", "{300C83A2-9461-4CC5-A614-3B8E3B18B9FF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_01 LEDs", "..\..\..\..\Arduino\LEDs\LEDs.vcxproj", "{4505EAF8-EED4-4E16-B203-0A8659083BCD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiquidCrystal_PCF8574-2.1.0", "Libraries\LiquidCrystal_PCF8574\2.1.0\LiquidCrystal_PCF8574\LiquidCrystal_PCF8574-2.1.0.vcxitems", "{81C20DFD-78D9-4BEC-9C8E-EE4EC7D65F1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ADS1115_WE-1.4.2-1.4.2", "Libraries\ADS1115_WE-1.4.2\1.4.2\ADS1115_WE-1.4.2\ADS1115_WE-1.4.2-1.4.2.vcxitems", "{0F8BF2B8-48CC-4369-B3F4-A9CF22CAEA85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoRa_E32_Series_Library-master-1.5.6", "Libraries\LoRa_E32_Series_Library-master\1.5.6\LoRa_E32_Series_Library-master\LoRa_E32_Series_Library-master-1.5.6.vcxitems", "{55617AB8-6169-4896-94B1-8B1E76D1B6EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Preferences-2.0.0", "Libraries\Preferences\2.0.0\Preferences\Preferences-2.0.0.vcxitems", "{61CCA91A-8D01-4E15-9D55-6CF7D824D33D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wire-2.0.0", "Libraries\Wire\2.0.0\Wire\Wire-2.0.0.vcxitems", "{F8E922A1-C0D5-4387-A4CB-99F955FBBD8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_PWM_Servo_Driver_Library-2.4.1", "Libraries\Adafruit_PWM_Servo_Driver_Library\2.4.1\Adafruit_PWM_Servo_Driver_Library\Adafruit_PWM_Servo_Driver_Library-2.4.1.vcxitems", "{6158DAA0-DDAE-4B0B-B08A-71EAEC07482F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyGPSPlus-master-1.0.3", "Libraries\TinyGPSPlus-master\1.0.3\TinyGPSPlus-master\TinyGPSPlus-master-1.0.3.vcxitems", "{6D4C8641-3F56-410F-8163-1EE4C47FDA4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,15 +35,27 @@ Global
 		{300C83A2-9461-4CC5-A614-3B8E3B18B9FF}.Debug|x86.Build.0 = Debug|Win32
 		{300C83A2-9461-4CC5-A614-3B8E3B18B9FF}.Release|x86.ActiveCfg = Release|Win32
 		{300C83A2-9461-4CC5-A614-3B8E3B18B9FF}.Release|x86.Build.0 = Release|Win32
-		{4505EAF8-EED4-4E16-B203-0A8659083BCD}.Debug|x86.ActiveCfg = Debug|Win32
-		{4505EAF8-EED4-4E16-B203-0A8659083BCD}.Debug|x86.Build.0 = Debug|Win32
-		{4505EAF8-EED4-4E16-B203-0A8659083BCD}.Release|x86.ActiveCfg = Release|Win32
-		{4505EAF8-EED4-4E16-B203-0A8659083BCD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD1D8741-88E3-4086-AC18-23A4C2833734}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\ADS1115_WE-1.4.2\1.4.2\ADS1115_WE-1.4.2\ADS1115_WE-1.4.2-1.4.2.vcxitems*{0f8bf2b8-48cc-4369-b3f4-a9cf22caea85}*SharedItemsImports = 9
+		Libraries\Adafruit_PWM_Servo_Driver_Library\2.4.1\Adafruit_PWM_Servo_Driver_Library\Adafruit_PWM_Servo_Driver_Library-2.4.1.vcxitems*{300c83a2-9461-4cc5-a614-3b8e3b18b9ff}*SharedItemsImports = 4
+		Libraries\TinyGPSPlus-master\1.0.3\TinyGPSPlus-master\TinyGPSPlus-master-1.0.3.vcxitems*{300c83a2-9461-4cc5-a614-3b8e3b18b9ff}*SharedItemsImports = 4
+		Libraries\LoRa_E32_Series_Library-master\1.5.6\LoRa_E32_Series_Library-master\LoRa_E32_Series_Library-master-1.5.6.vcxitems*{55617ab8-6169-4896-94b1-8b1e76d1b6ef}*SharedItemsImports = 9
+		Libraries\Adafruit_PWM_Servo_Driver_Library\2.4.1\Adafruit_PWM_Servo_Driver_Library\Adafruit_PWM_Servo_Driver_Library-2.4.1.vcxitems*{6158daa0-ddae-4b0b-b08a-71eaec07482f}*SharedItemsImports = 9
+		Libraries\Preferences\2.0.0\Preferences\Preferences-2.0.0.vcxitems*{61cca91a-8d01-4e15-9d55-6cf7d824d33d}*SharedItemsImports = 9
+		Libraries\TinyGPSPlus-master\1.0.3\TinyGPSPlus-master\TinyGPSPlus-master-1.0.3.vcxitems*{6d4c8641-3f56-410f-8163-1ee4c47fda4b}*SharedItemsImports = 9
+		Libraries\LiquidCrystal_PCF8574\2.1.0\LiquidCrystal_PCF8574\LiquidCrystal_PCF8574-2.1.0.vcxitems*{81c20dfd-78d9-4bec-9c8e-ee4ec7d65f1a}*SharedItemsImports = 9
+		Libraries\ADS1115_WE-1.4.2\1.4.2\ADS1115_WE-1.4.2\ADS1115_WE-1.4.2-1.4.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\LiquidCrystal_PCF8574\2.1.0\LiquidCrystal_PCF8574\LiquidCrystal_PCF8574-2.1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\LoRa_E32_Series_Library-master\1.5.6\LoRa_E32_Series_Library-master\LoRa_E32_Series_Library-master-1.5.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Preferences\2.0.0\Preferences\Preferences-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Wire\2.0.0\Wire\Wire-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Wire\2.0.0\Wire\Wire-2.0.0.vcxitems*{f8e922a1-c0d5-4387-a4cb-99f955fbbd8a}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal

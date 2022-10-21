@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals" >
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <ItemsProjectGuid>{81c20dfd-78d9-4bec-9c8e-ee4ec7d65f1a}</ItemsProjectGuid>
+    <ItemsProjectGuid>{55617ab8-6169-4896-94b1-8b1e76d1b6ef}</ItemsProjectGuid>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -14,17 +14,18 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\LiquidCrystal_PCF8574.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)LoRa_E32.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)src\LiquidCrystal_PCF8574.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EByte_LoRa_E32_library.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)LoRa_E32.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
 <Text Include="$(MSBuildThisFileDirectory)library.properties" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+    <None Include="$(MSBuildThisFileDirectory)LICENSE.md" />
 <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
 </Project>

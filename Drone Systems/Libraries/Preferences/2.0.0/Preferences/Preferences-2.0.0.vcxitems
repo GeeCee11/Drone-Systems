@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals" >
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <ItemsProjectGuid>{81c20dfd-78d9-4bec-9c8e-ee4ec7d65f1a}</ItemsProjectGuid>
+    <ItemsProjectGuid>{61cca91a-8d01-4e15-9d55-6cf7d824d33d}</ItemsProjectGuid>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -14,17 +14,16 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\LiquidCrystal_PCF8574.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Preferences.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)src\LiquidCrystal_PCF8574.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Preferences.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
 <Text Include="$(MSBuildThisFileDirectory)library.properties" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
-<None Include="$(MSBuildThisFileDirectory)README.md" />
+    
   </ItemGroup>
 </Project>
